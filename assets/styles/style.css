@@ -1,0 +1,100 @@
+/* header start */
+.header {
+  display: grid;
+  grid-template-columns: 70% repeat(3, 10%);
+  min-height: 80px;
+  align-items: center;
+  max-width: 83%;
+  margin: 0 auto;
+}
+.header__nav {
+  display: grid;
+  text-decoration: none;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* header end */
+.main {
+  max-width: 83%;
+  margin: 0 auto;
+}
+/* section_title start */
+.title {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 5%;
+}
+.img {
+  max-width: 100%;
+  min-height: 100%;
+}
+.text {
+  display: grid;
+  grid-template-rows: 5% 36% 17% 42%;
+  margin-left: 6%;
+}
+.text__1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-size: 10px;
+  color: #999999;
+}
+.text__2 {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-size: 36px;
+  overflow: hidden;
+  word-break: break-all;
+}
+.text__3 {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-size: 16px;
+  color: #666666;
+  overflow: hidden;
+  word-break: break-all;
+}
+.text__4 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-size: 10px;
+}
+/* section_title end */
+
+/* section1_title start */
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 5%;
+  max-height: 100%;
+}
+.section1__container {
+  display: grid;
+  padding: 10px 5px 5px 5px;
+}
+.section1__illustration {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-size: 10px;
+  color: #999999;
+  padding-top: 3%;
+}
+.section1__topic {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-size: 20px;
+  overflow: hidden;
+  word-break: break-all;
+  padding-top: 3%;
+}
+.section1__author {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-size: 10px;
+  padding-top: 3%;
+}
+/* section1_title end */
