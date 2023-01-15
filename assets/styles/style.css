@@ -64,7 +64,7 @@
 }
 /* section_title end */
 
-/* section1_title start */
+/* section1 start */
 .section1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -72,18 +72,18 @@
   margin-top: 5%;
   max-height: 100%;
 }
-.section1__container {
+.section__container {
   display: grid;
   padding: 10px 5px 5px 5px;
 }
-.section1__illustration {
+.section__illustration {
   font-family: "Libre Franklin";
   font-style: normal;
   font-size: 10px;
   color: #999999;
   padding-top: 3%;
 }
-.section1__topic {
+.section__topic {
   font-family: "Tenor Sans";
   font-style: normal;
   font-size: 20px;
@@ -91,10 +91,34 @@
   word-break: break-all;
   padding-top: 3%;
 }
-.section1__author {
+.section__author {
   font-family: "Libre Franklin";
   font-style: normal;
   font-size: 10px;
   padding-top: 3%;
 }
-/* section1_title end */
+/* section1 end */
+
+/* section2 start */
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 5%;
+  max-height: 100%;
+}
+
+.button {
+  width: 205px;
+  height: 54px;
+  margin-left: 40%;
+  margin-top: 5%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  background-color: white;
+  border: 1px solid;
+}
+/* section2 end */
