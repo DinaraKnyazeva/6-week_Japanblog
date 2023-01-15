@@ -122,3 +122,13 @@
   border: 1px solid;
 }
 /* section2 end */
+
+/* section3 start */
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 5%;
+  max-height: 100%;
+}
+/* section3 end */
